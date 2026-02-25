@@ -1,4 +1,5 @@
 Код на языке программирования Prolog
+
 % Главный предикат, запускающий программу
 start :-
     write('Введите 5 чисел по одному:'), nl,
@@ -54,7 +55,9 @@ determine_result(Groups, Result) :-
      SortedSizes = [2,1,1,1] -> Result = 6;    
      Result = 7).
 
+
 Код программы на языке Lisp
+
 ;; Проверка: содержится ли x в списке   
 (defun contains (x lst)
   (cond
